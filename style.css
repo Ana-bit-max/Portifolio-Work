@@ -98,3 +98,41 @@ footer {
   background: #0f172a;
   border-top: 1px solid #334155;
 }
+
+.repo-links{
+    display:flex;
+    gap:10px;
+    margin-top:18px;
+    flex-wrap:wrap;
+}
+
+.btn-outline{
+    border:1px solid #00b894;
+    color:#00b894;
+    padding:8px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-outline:hover{
+    background:#00b894;
+    color:#fff;
+}
+
+.btn-fill{
+    background:#00b894;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-fill:hover{
+    opacity:.9;
+}
